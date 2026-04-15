@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteo Pro</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="site-header">
+            <h1>Meteo Pro</h1>
+            <p class="subtitle">Previsioni in tempo reale</p>
+        </header>
+
+        <form method="POST" class="search-bar">
+            <input type="text" name="city" placeholder="Inserisci città (es: Roma, Milano)" required>
+            <button type="submit">Cerca</button>
+        </form>
+
+        {% if error %}
+        <p class="error-message">{{ error }}</p>
+        {% endif %}
+
+        <div class="weather-grid">
+            {% for res in results %}
+            <div class="weather-card">
+                <h2>{{ res.citta }}</h2>
+                <p class="card-country">Italia · IT</p>
+                <span class="condition-badge">{{ res.desc }}</span>
+                <div class="temp-row">
+                    <span class="temp">{{ res.temp }}</span>
+                    <span class="temp-unit">°C</span>
+                </div>
+                <p class="weather-desc">{{ res.desc }}</p>
+                <hr>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-label">Umidità</div>
+                        <div class="stat-value">{{ res.umidita }}%</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">Vento</div>
+                        <div class="stat-value">{{ res.vento }} km/h</div>
+                    </div>
+                    <div class="stat-item full-width">
+                        <div class="stat-label">Precipitazioni</div>
+                        <div class="stat-value">{{ res.precipitazioni }} mm</div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+
+</html>

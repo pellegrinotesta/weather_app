@@ -1,0 +1,86 @@
+2026-04-07 16:29:45,022 - API FETCH: avellino
+2026-04-07 16:31:50,280 - CACHE HIT: avellino
+2026-04-07 16:33:50,377 - CACHE HIT: avellino
+2026-04-07 16:33:50,825 - API FETCH: napoli
+2026-04-07 16:36:27,545 - API FETCH: roma
+2026-04-07 16:40:58,049 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-07 16:40:58,050 - [33mPress CTRL+C to quit[0m
+2026-04-07 16:40:58,050 -  * Restarting with stat
+2026-04-07 16:40:58,207 -  * Debugger is active!
+2026-04-07 16:40:58,215 -  * Debugger PIN: 135-699-517
+2026-04-07 16:42:05,593 - 127.0.0.1 - - [07/Apr/2026 16:42:05] "GET / HTTP/1.1" 200 -
+2026-04-07 16:42:05,632 - 127.0.0.1 - - [07/Apr/2026 16:42:05] "GET /static/style.css HTTP/1.1" 200 -
+2026-04-07 16:42:05,741 - 127.0.0.1 - - [07/Apr/2026 16:42:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-07 16:42:08,982 - 127.0.0.1 - - [07/Apr/2026 16:42:08] "POST / HTTP/1.1" 200 -
+2026-04-07 16:42:09,010 - 127.0.0.1 - - [07/Apr/2026 16:42:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-07 16:42:12,277 - CACHE HIT: napoli
+2026-04-07 16:42:12,278 - 127.0.0.1 - - [07/Apr/2026 16:42:12] "POST / HTTP/1.1" 200 -
+2026-04-07 16:42:12,301 - 127.0.0.1 - - [07/Apr/2026 16:42:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-15 17:10:47,570 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-15 17:10:47,570 - [33mPress CTRL+C to quit[0m
+2026-04-15 17:10:47,571 -  * Restarting with stat
+2026-04-15 17:10:47,724 -  * Debugger is active!
+2026-04-15 17:10:47,731 -  * Debugger PIN: 135-699-517
+2026-04-15 17:12:42,398 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-15 17:12:42,399 - [33mPress CTRL+C to quit[0m
+2026-04-15 17:12:42,399 -  * Restarting with stat
+2026-04-15 17:12:42,549 -  * Debugger is active!
+2026-04-15 17:12:42,554 -  * Debugger PIN: 135-699-517
+2026-04-15 17:18:43,935 -  * Detected change in '/Users/pellegrinotesta/Develop/weather_app/main.py', reloading
+2026-04-15 17:18:43,983 -  * Restarting with stat
+2026-04-15 17:18:44,228 -  * Debugger is active!
+2026-04-15 17:18:44,235 -  * Debugger PIN: 135-699-517
+2026-04-15 17:18:48,755 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-15 17:18:48,755 - [33mPress CTRL+C to quit[0m
+2026-04-15 17:18:48,755 -  * Restarting with stat
+2026-04-15 17:18:48,901 -  * Debugger is active!
+2026-04-15 17:18:48,906 -  * Debugger PIN: 135-699-517
+2026-04-15 17:19:14,192 -  * Detected change in '/Users/pellegrinotesta/Develop/weather_app/main.py', reloading
+2026-04-15 17:19:14,234 -  * Restarting with stat
+2026-04-15 17:19:14,453 -  * Debugger is active!
+2026-04-15 17:19:14,458 -  * Debugger PIN: 135-699-517
+2026-04-15 17:19:54,217 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.103:8000
+2026-04-15 17:19:54,217 - [33mPress CTRL+C to quit[0m
+2026-04-15 17:19:54,218 -  * Restarting with stat
+2026-04-15 17:19:54,372 -  * Debugger is active!
+2026-04-15 17:19:54,380 -  * Debugger PIN: 135-699-517
+2026-04-15 17:21:53,119 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-15 17:21:53,120 - [33mPress CTRL+C to quit[0m
+2026-04-15 17:21:53,120 -  * Restarting with stat
+2026-04-15 17:21:53,270 -  * Debugger is active!
+2026-04-15 17:21:53,275 -  * Debugger PIN: 135-699-517
+2026-04-15 17:22:47,103 - 127.0.0.1 - - [15/Apr/2026 17:22:47] "GET / HTTP/1.1" 200 -
+2026-04-15 17:22:47,128 - 127.0.0.1 - - [15/Apr/2026 17:22:47] "GET /static/style.css HTTP/1.1" 200 -
+2026-04-15 17:22:47,197 - 127.0.0.1 - - [15/Apr/2026 17:22:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-15 17:22:53,608 - API FETCH: napoli
+2026-04-15 17:22:53,609 - 127.0.0.1 - - [15/Apr/2026 17:22:53] "POST / HTTP/1.1" 200 -
+2026-04-15 17:22:53,639 - 127.0.0.1 - - [15/Apr/2026 17:22:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-15 17:23:00,598 - API FETCH: avellino
+2026-04-15 17:23:00,600 - 127.0.0.1 - - [15/Apr/2026 17:23:00] "POST / HTTP/1.1" 200 -
+2026-04-15 17:23:00,621 - 127.0.0.1 - - [15/Apr/2026 17:23:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-15 17:28:39,587 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+2026-04-15 17:28:39,587 - [33mPress CTRL+C to quit[0m
+2026-04-15 17:28:39,588 -  * Restarting with stat
+2026-04-15 17:28:39,737 -  * Debugger is active!
+2026-04-15 17:28:39,744 -  * Debugger PIN: 135-699-517
+2026-04-15 17:28:44,834 - CACHE HIT: avellino
+2026-04-15 17:28:44,841 - 127.0.0.1 - - [15/Apr/2026 17:28:44] "POST / HTTP/1.1" 200 -
+2026-04-15 17:29:07,765 - CACHE HIT: avellino
+2026-04-15 17:29:07,771 - 127.0.0.1 - - [15/Apr/2026 17:29:07] "POST / HTTP/1.1" 200 -
+2026-04-15 17:29:07,795 - 127.0.0.1 - - [15/Apr/2026 17:29:07] "GET /static/style.css HTTP/1.1" 200 -
+2026-04-15 17:29:13,364 - 127.0.0.1 - - [15/Apr/2026 17:29:13] "POST / HTTP/1.1" 200 -
+2026-04-15 17:29:13,388 - 127.0.0.1 - - [15/Apr/2026 17:29:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-04-15 17:29:23,515 - API FETCH: roma
+2026-04-15 17:29:23,858 - API FETCH: salerno
+2026-04-15 17:29:23,859 - CACHE HIT: napoli
+2026-04-15 17:29:23,859 - 127.0.0.1 - - [15/Apr/2026 17:29:23] "POST / HTTP/1.1" 200 -
+2026-04-15 17:29:23,885 - 127.0.0.1 - - [15/Apr/2026 17:29:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
